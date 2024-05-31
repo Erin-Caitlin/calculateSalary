@@ -14,12 +14,12 @@
         <div class="container-fluid">
             <div class="container">
                 <label for = "firstname">First Name:</label>
-                <input type = "text" name = "firt Name" placeholder = "First Name" id = "First Name">
+                <input type = "text" name = "firt Name" placeholder = "First Name" id = "firstName">
             </div>
 
             <div class="container">
                 <label for = "lastname">Last Name:</label>
-                <input type = "text" name = "Last Name" placeholder = "Last Name" id = "Last Name">
+                <input type = "text" name = "Last Name" placeholder = "Last Name" id = "lastname">
             </div>
 
             <div class="container">
@@ -28,8 +28,8 @@
             </div>
 
             <div class="container">
-                <label for = "Date of birth">Date of birth:</label>
-                <input type = "date">
+                <label for = "Date-of-birth">Date of birth:</label>
+                <input type = "date" id="Date-of-birth">
             </div>
 
             <div class="container" id="gender">
@@ -46,7 +46,7 @@
                 <label><input type = "radio" name = "Mr-Mrs-Miss-Doctor" value = "Doctor">Doctor</label>
             </div>
             <div class="container" id="languages">
-                <label for = "gender">Select the languages you have experience in:</label>
+                <label for = "box">Select the languages you have experience in:</label>
                 <div class="box">
                 <label><input type = "checkbox" value = "HTML">HTML</label>
                 <label><input type = "checkbox"value = "CSS">CSS</label>
@@ -57,8 +57,8 @@
             </div>
 
             <div class="container">
-                <label for = "yes-no">Are you working?</label>
-                <select id="yes-no">
+                <label for = "work-status">Are you working?</label>
+                <select id="work-status">
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                 </select>
@@ -71,6 +71,9 @@
             <div class="container">
                 <label for = "rate">Enter your rate:</label>
                 <input type = "number" placeholder = "Rate" id = "rate">
+            </div>
+            <div class="container">
+                <button type="button" calculate>Calculate Salary</button>
             </div>
         </div>
     </form>

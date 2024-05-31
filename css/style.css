@@ -44,3 +44,11 @@ input {
 #working-hours {
     width: 40%;
 }
+
+button {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border-color: purple;
+}
