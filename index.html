@@ -13,43 +13,64 @@
     <form>
         <div class="container-fluid">
             <div class="container">
-                <label for = "firstname">First Name</label>
+                <label for = "firstname">First Name:</label>
                 <input type = "text" name = "firt Name" placeholder = "First Name" id = "First Name">
             </div>
 
             <div class="container">
-                <label for = "lastname">Last Name</label>
+                <label for = "lastname">Last Name:</label>
                 <input type = "text" name = "Last Name" placeholder = "Last Name" id = "Last Name">
             </div>
 
             <div class="container">
-                <label for = "age">Age</label>
+                <label for = "age">Age:</label>
                 <input type = "number" name = "age" placeholder = "Age" id = "age">
             </div>
 
             <div class="container">
-                <label for = "Date of birth">Date of birth</label>
+                <label for = "Date of birth">Date of birth:</label>
                 <input type = "date">
             </div>
 
-            <div class="container">
-                <label for = "gender">Gender</label>
-            </div>
-
-            <div class="container">
+            <div class="container" id="gender">
+                <label for = "gender">Gender:</label>
                 <label><input type = "radio" name = "male-female" value = "male">Male</label>
                 <label><input type = "radio" name = "male-female" value = "female">Female</label>
             </div>
 
-            <div class="container">
+            <div class="container" id="title">
                 <label for = "gender">Greeting type:</label>
-            </div>
-
-            <div class="container">
                 <label><input type = "radio" name = "Mr-Mrs-Miss-Doctor" value = "Mr">Mr</label>
                 <label><input type = "radio" name = "Mr-Mrs-Miss-Doctor" value = "Mrs">Mrs</label>
                 <label><input type = "radio" name = "Mr-Mrs-Miss-Doctor" value = "Miss">Miss</label>
                 <label><input type = "radio" name = "Mr-Mrs-Miss-Doctor" value = "Doctor">Doctor</label>
+            </div>
+            <div class="container" id="languages">
+                <label for = "gender">Select the languages you have experience in:</label>
+                <div class="box">
+                <label><input type = "checkbox" value = "HTML">HTML</label>
+                <label><input type = "checkbox"value = "CSS">CSS</label>
+                <label><input type = "checkbox"value = "Javscript">Javscript</label>
+                <label><input type = "checkbox" value = "Angular">Angular</label>
+                <label><input type = "checkbox" value = "VueJS">VueJS</label>
+            </div>
+            </div>
+
+            <div class="container">
+                <label for = "yes-no">Are you working?</label>
+                <select id="yes-no">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            <div class="container">
+                <label for = "working-hours">Enter your working hours:</label>
+                <input type = "numbers" placeholder = "Working hours" id = "working-hours">
+            </div>
+
+            <div class="container">
+                <label for = "rate">Enter your rate:</label>
+                <input type = "number" placeholder = "Rate" id = "rate">
             </div>
         </div>
     </form>
